@@ -1,3 +1,8 @@
+//this function uses my other page on repl.it its basical this code
+function start(){
+	var myWindow = window.open("https://cannon--jameslavis9.repl.co", "sceneWindow", "width=1200,height=600")	
+}
+//this code means this ,below this comment
 var keyboard = {};
 var player = { height:1.8, speed:0.2, turnSpeed:Math.PI*0.02 };
 
@@ -12,7 +17,8 @@ var player = { height:1.8, speed:0.2, turnSpeed:Math.PI*0.02 };
         var container, camera, scene, renderer, cannonDebugRenderer;
 		var meshes=[];
 		var bodies=[];
-function start(){
+//this is the function that would go into the button tag on the HTMLfile.html file. below this
+/*function start(){
 		initCannon();
 		initThree();
 		addSphere();
@@ -22,7 +28,7 @@ function start(){
 		addPlane();
 		//addHeightfield();
 		animate();
-}
+}*/
 		function initThree(){
 			container = document.createElement( 'div' );
             document.body.appendChild( container );
@@ -185,6 +191,7 @@ function start(){
             meshes.push(mesh);
             scene.add(mesh);
         }
+	// i commented this out because i didnt wont it on their
         /*function addHeightfield(){
             // Physics
             var body = new CANNON.Body({ mass: 0 });
